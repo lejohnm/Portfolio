@@ -1,0 +1,86 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.about-colomn {
+    flex-direction: row;
+}
+
+.about-text {
+    padding: 15px;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 20px;
+}
+
+.next-section {
+    padding: 20px;
+}
+
+.portfolio-header {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    padding: 50px;
+}
+
+.project-cards {
+  padding: 50px;
+  max-width: 0;
+  border: 3px solid black;
+  max-width: 500px;
+}
+
+.card-img {
+    opacity: 0.7;
+}
+
+.submit {
+    width: 100px;
+    text-align: center;
+    border: 5px solid black; 
+    background: repeating-linear-gradient(
+    45deg,
+    grey,
+    grey 10px,
+    black 10px,
+    black 20px
+  );
+  color: white;
+}
+.submit:hover {
+    border: 5px solid black; 
+    background:white;
+  color: black;
+  font-weight: bolder;
+}
+
+.card-title {
+    font-family: Impact, Charcoal, sans-serif;
+}
+.card-text {
+    font-family: OCR A Std, monospace;
+}
+
+.col-md-4 {
+    border: 5px solid black; 
+} 
+.col-md-8 {
+    border: 5px solid black; 
+} 
+
+.card {
+    position: static;
+}
+
+.text {
+    font-family: OCR A Std, monospace; 
+}

@@ -1,0 +1,329 @@
+
+.nav-contaner {
+    display: flex;
+    opacity: 0.9;
+}
+.navbar {
+ background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 10px,
+        grey 10px,
+        grey 20px
+      ); 
+      opacity: 0.9;
+      border: 3px solid black;
+}
+.nav-item {
+    opacity: 0.9;
+margin-right: 100px;
+}
+
+#nav-text1:hover {
+    opacity: 1;
+    background: repeating-linear-gradient(
+        45deg,
+        grey,
+        grey 10px,
+        black 10px,
+        black 20px
+      ); 
+    color: white;
+    font-weight: bolder;
+}
+#nav-text2:hover {
+    opacity: 1;
+    background: repeating-linear-gradient(
+        45deg,
+        grey,
+        grey 10px,
+        black 10px,
+        black 20px
+      ); 
+    color: white;
+    font-weight: bolder;
+}
+#nav-text3:hover {
+    opacity: 1;
+    background: repeating-linear-gradient(
+        45deg,
+        grey,
+        grey 10px,
+        black 10px,
+        black 20px
+      ); 
+    color: white;
+    font-weight: bolder;
+}
+
+#nav-text1 {
+    color: white;
+    /* border: solid 1px black;
+    background-color: grey; */
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+ font-weight: bold;
+}
+
+#nav-text2 {
+    color: white;
+    /* border: solid 1px black;
+    background-color: grey; */
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+#nav-text3 {
+    color: white;
+    /* border: solid 1px black;
+    background-color: grey; */
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+   
+
+}
+
+.collapse {
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    padding: 100px;
+    font-size: 100px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.title2 {
+    text-align: center;
+    padding: 100px;
+    font-size: 100px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.home-paragraph {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    font-size: 40pt;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#linkedin {
+    transition: transform .2s;
+    padding: 20px;
+}
+#linkedin:hover {
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+#twitter {
+    transition: transform .2s;
+    padding: 20px;
+}
+#twitter:hover {
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+#github {
+    transition: transform .2s;
+    padding: 20px;
+}
+#github:hover {
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+.fa {
+    padding: px;
+    text-decoration-color: none;
+}
+
+
+.arrow-container {
+display: flex;
+justify-content: center;
+}
+
+#arrow-down {
+    font-size: 200px;
+}
+
+#arrow-down2 {
+    font-size: 200px;
+    color: white;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+.home-scroll {
+    background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 10px,
+        grey 10px,
+        grey 20px);
+}
+.strength-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 200px;
+    
+}
+
+.strengths-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strengths {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+   font-size: 100pt;
+   font-weight: bold;
+   width: 155px;
+   margin-right: 200px;
+   margin-bottom: 20px;
+   transition: transform .2s;
+}
+.strengths:hover {
+    transform: scale(1.5);
+}
+
+.skill-text {
+    max-width: 155px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-right: 200px;
+    font-family: OCR A Std, monospace;
+}
+
+.footer {
+    color: white;
+    border: solid 5px black;
+    height: 100%;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  background: repeating-linear-gradient(
+    45deg,
+    grey,
+    grey 10px,
+    black 10px,
+    black 20px
+  ); 
+    padding-top: 20px;
+    bottom: 0;
+   
+}
+
+.footer-bottom {
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 10px;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.flex-child1 {
+    flex: 1;
+    height: 100%;
+    background-color: white;
+}
+
+.flex-child2 {
+    flex: 1;
+    height: 100%;
+    background-color: black;
+}
+
+.about-link {
+    text-align: center;
+    border: solid 5px black;
+    border-radius: 50%;
+    padding: 50px;
+    margin: 200px;
+    transition: 0.5s;
+}
+
+.about-link:hover {
+    border-radius: 0%;
+}
+.convince {
+    font-size: 15px;
+    font-family: OCR A Std, monospace;
+    color: white;
+}
+.more {
+    font-family: OCR A Std, monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.more:hover {
+    font-family: OCR A Std, monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.more2 {
+    color: black;
+    text-decoration: none;
+}
+.more3 {
+    color: white;
+    text-decoration: none;
+}
+.more2:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+.contact-link {
+    text-align: center;
+    border: solid 5px white;
+    border-radius: 50%;
+    padding: 50px;
+    color: white;
+    margin: 200px;
+    transition: 0.5s;
+}
+
+.contact-link:hover {
+    
+border-radius: 0%;
+}
