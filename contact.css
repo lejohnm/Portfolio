@@ -15,7 +15,7 @@
     grey,
     grey 10px,
     black 10px,
-    black 20px
+    black 20px 
   );
   padding: 10px;
 }
@@ -29,6 +29,7 @@
 
 .messgae-box {
     padding: 50px;
+   
 }
 .subject {
     display: flex;
@@ -36,6 +37,7 @@
     flex-direction: column;
   border: solid 5px black;
   padding: 10px;
+  
 }
 .message {
     display: flex;
