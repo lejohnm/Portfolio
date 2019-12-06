@@ -42,6 +42,9 @@ img {
 .card-img {
     opacity: 0.7;
 }
+.card-img:hover {
+    opacity: 1;
+}
 
 .submit {
     width: 100px;
@@ -83,4 +86,69 @@ img {
 
 .text {
     font-family: OCR A Std, monospace; 
+}
+
+
+.card-container {
+    text-align: center;
+    border: solid black 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.resume {
+    width: 100px;
+    text-align: center;
+    border: 5px solid black; 
+    background: repeating-linear-gradient(
+    45deg,
+    grey,
+    grey 10px,
+    black 10px,
+    black 20px
+  );
+  color: white;
+}
+
+.resume:hover {
+    border: 5px solid black; 
+    background:white;
+  color: black;
+  font-weight: bolder;
+}
+
+.picture {
+    position: relative;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 500px;
+  opacity: 0.5;
+ 
+}
+
+.picture:hover {
+    opacity: 1;
+}
+
+.caption {
+    flex-direction: column;
+    width: 100%;
+    background: black;
+    padding: 0;
+}
+
+.button {
+    padding: 20px;
 }
